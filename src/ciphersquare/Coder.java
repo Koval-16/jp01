@@ -1,3 +1,5 @@
+package ciphersquare;
+
 public class Coder {
     Square square;
     Word word;

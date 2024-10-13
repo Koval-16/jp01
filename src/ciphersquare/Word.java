@@ -1,3 +1,5 @@
+package ciphersquare;
+
 public class Word {
     private String word;
     private final char excluded;

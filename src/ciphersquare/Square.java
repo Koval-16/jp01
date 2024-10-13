@@ -1,3 +1,5 @@
+package ciphersquare;
+
 public class Square {
     static final int size = 5;
     char[][] square = new char[size][size];
