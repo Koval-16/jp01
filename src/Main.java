@@ -11,6 +11,7 @@ public class Main {
         char excluded = 'q';
         Square square = new Square(input);
         Scanner scanner = new Scanner(System.in);
+        square.print_square();
         System.out.print("Enter the word: ");
         Word word = new Word(scanner.nextLine(), excluded);
         Coder coder = new Coder(square, word);
